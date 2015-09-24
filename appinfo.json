@@ -1,0 +1,52 @@
+{
+  "sdkVersion": "3", 
+  "uuid": "91191177-1234-4321-8785-86da0f4e44a8", 
+  "appKeys": {
+    "dummy": 0
+  }, 
+  "companyName": "Awesome Developer Inc", 
+  "versionLabel": "1.0", 
+  "targetPlatforms": [
+    "basalt", 
+    "chalk"
+  ], 
+  "longName": "s4 time", 
+  "versionCode": 1, 
+  "shortName": "s4 time", 
+  "watchapp": {
+    "watchface": true
+  }, 
+  "resources": {
+    "media": [
+      {
+        "type": "font", 
+        "characterRegex": "[ :0-9]", 
+        "name": "FONT_BOXY_TEXT_30", 
+        "file": "Boxy_Text.ttf"
+      }, 
+      {
+        "type": "font", 
+        "characterRegex": "[ :0-9]", 
+        "name": "FONT_BOXY_OUTLINE_30", 
+        "file": "Boxy_Outline.ttf"
+      }, 
+      {
+        "type": "font", 
+        "characterRegex": "[ /0-9MTWFSadehinortu]", 
+        "name": "FONT_BOXY_TEXT_18", 
+        "file": "Boxy_Text.ttf"
+      }, 
+      {
+        "type": "font", 
+        "characterRegex": "[ /0-9MTWFSadehinortu]", 
+        "name": "FONT_BOXY_OUTLINE_18", 
+        "file": "Boxy_Outline.ttf"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_1", 
+        "file": "mario_banana.png"
+      }
+    ]
+  }
+}
