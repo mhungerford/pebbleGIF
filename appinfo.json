@@ -10,9 +10,9 @@
     "basalt", 
     "chalk"
   ], 
-  "longName": "s4 time", 
+  "longName": "gif time", 
   "versionCode": 1, 
-  "shortName": "s4 time", 
+  "shortName": "gif time", 
   "watchapp": {
     "watchface": true
   }, 
