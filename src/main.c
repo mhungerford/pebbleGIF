@@ -1,5 +1,10 @@
 #include <pebble.h>
 
+// Support for older SDKs on Pebble Time
+#ifndef PBL_IF_RECT_ELSE
+#define PBL_IF_RECT_ELSE(rect_val, circle_val) (rect_val)
+#endif
+
 Window* my_window = NULL;
 
 //Image Display
