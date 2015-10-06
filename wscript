@@ -60,7 +60,7 @@ def gifs_to_apngs(gifs_dir, appinfo_filename, resources_dir):
             subprocess.call('gifsicle --resize-fit 144x144 ' + 
             '--resize-method lanczos3 ' + '--colors 64 -O1 -o ' + resources_dir + '/' + 
             gif_mod + ' ' + gifs_dir + '/' + gif, shell=True)
-            subprocess.call('gif2apng_noprev -z0 ' + resources_dir + '/' + gif_mod + ' ' + 
+            subprocess.call('./gif2apng_noprev -z0 ' + resources_dir + '/' + gif_mod + ' ' + 
             resources_dir + '/' + png, shell=True)
             media_entries.append({"type":"raw","name":"IMAGE_" + str(i), "file":png})
             i = i + 1
